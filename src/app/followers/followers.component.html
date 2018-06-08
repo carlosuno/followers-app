@@ -1,0 +1,13 @@
+<h2>Mosh followers</h2>
+<ul class="list-group">
+  <li *ngFor="let f of followers" class="list-group-item">
+    <div>
+      <img class="rounded-circle" src="{{ f.avatar_url }}" alt="{{ f.login }}">
+    </div>
+    <div>
+      <a [routerLink]="['/followers', f.id, f.login]">{{ f.login }}</a>
+      <br/>
+      <a href="{{ f.html_url }}">{{ f.html_url }}</a>
+    </div>
+  </li>
+</ul>

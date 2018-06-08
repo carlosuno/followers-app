@@ -1,0 +1,21 @@
+img {
+  width: 60px;
+  margin: 5px;
+}
+
+div {
+  float: left;
+}
+
+a {
+  font-size: 70%;
+  vertical-align: top;
+}
+
+li {
+  border: none;
+}
+
+label {
+  text-align: bottom;
+}
